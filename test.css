@@ -1,0 +1,16 @@
+.hello{
+    /* opacity 0 to make invisible */
+    opacity: 0;
+    /* unimportant (just a style) */
+    height: 70vh;
+    width: 90%;
+    border: 20px #000000 double;
+    text-align: center;
+    /*transition to make visible with animation */
+    transition: opacity 0.5s ease-in-out;
+}
+.hello:hover{
+    /* opacity 1 to make visible when hover */
+    opacity: 1;
+}
+
